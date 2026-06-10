@@ -1,0 +1,15 @@
+{
+  "cleanup": {
+    "description": "输出清理",
+    "type": "object",
+    "hint": "控制插件生成的混淆 / 解混淆结果图在本地磁盘中的保留时间。",
+    "items": {
+      "retention_hours": {
+        "description": "输出图片保留小时数",
+        "type": "int",
+        "default": 24,
+        "hint": "输出 PNG 会保存在插件数据目录中，超过该小时数会在插件启动或下一次处理图片前自动清理。填 0 表示不按时间清理。"
+      }
+    }
+  }
+}
