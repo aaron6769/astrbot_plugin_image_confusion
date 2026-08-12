@@ -1,8 +1,9 @@
 name: astrbot_plugin_image_confusion
 display_name: 图片混淆/解混淆插件
 desc: 基于 Gilbert Curve 算法的图片混淆 / 解混淆插件，支持 /混淆2 与 /解混淆2 这类自定义次数指令，输出图片默认保留 24 小时。
-version: v0.1.3
+version: v0.1.4
 author: luo
 repo: "https://github.com/aaron6769/astrbot_plugin_image_confusion"
+astrbot_version: ">=4.0.0"
 support_platforms:
   - aiocqhttp
