@@ -24,6 +24,8 @@
 
 ## 安装
 
+运行环境要求 Python 3.11 或更高版本。插件依赖 Pillow 13，Pillow 13 已停止支持 Python 3.10；升级插件前请先确认 AstrBot 使用的 Python 版本。
+
 将插件目录放入 AstrBot 的插件目录：
 
 ```text
@@ -101,6 +103,7 @@ WebUI 配置项：
 
 ## 兼容
 
+- Python 3.11 及以上
 - AstrBot v4
 - aiocqhttp / NapCat 适配器
 
