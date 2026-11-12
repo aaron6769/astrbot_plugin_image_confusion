@@ -51,7 +51,7 @@ class ImageCommandFilter(filter.CustomFilter):
     "astrbot_plugin_image_confusion",
     "luo",
     "图片混淆/解混淆插件：基于 Gilbert Curve 的图片混淆与还原",
-    "0.1.4",
+    "0.1.5",
 )
 class ImageConfusionPlugin(Star):
     def __init__(self, context: Context, config: dict[str, Any] | None = None):

@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented in this file.
 
+## 0.1.5 - 2026-11-12
+
+- Refresh the plugin icon and add artwork attribution.
+- Clarify the marketplace summary and usage guide, including how to preserve scrambled images for exact restoration.
+- Document interoperability with the default Xiaofanqie Web mapping and replace the demo with an actual two-pass scramble and pixel-verified restoration.
+
 ## 0.1.4 - 2026-08-12
 
 - Bound input files to 25 MiB and decoded images to 12 million pixels before allocating the Gilbert curve and output buffer.
