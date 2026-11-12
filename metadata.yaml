@@ -1,7 +1,12 @@
 name: astrbot_plugin_image_confusion
 display_name: 图片混淆/解混淆插件
-desc: 基于 Gilbert Curve 算法的图片混淆 / 解混淆插件，支持 /混淆2 与 /解混淆2 这类自定义次数指令，输出图片默认保留 24 小时。
-version: v0.1.4
+short_desc: QQ 图片混淆与还原，兼容小番茄默认混淆算法。
+desc: |
+  带图或回复图片发送 `/混淆`，把图片的像素顺序打乱；回复混淆结果发送 `/解混淆`，即可按相同次数还原。
+  兼容小番茄图片混淆的默认像素重排规则，保持相同尺寸和次数即可互解。
+  支持 `/混淆2`、`/解混淆2` 等 1–50 次配对指令。处理在 AstrBot 本地完成，无需配置模型或 API Key；输出 PNG，默认保留 24 小时。
+  还原请使用未经有损压缩、裁剪或缩放的混淆图。图片置乱不等于加密，请勿用它保护敏感信息。
+version: 0.1.5
 author: luo
 repo: "https://github.com/aaron6769/astrbot_plugin_image_confusion"
 astrbot_version: ">=4.0.0"
